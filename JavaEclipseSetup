@@ -1,0 +1,38 @@
+Update Java nature if missed in any project through below in .properties file:
+<nature>org.eclipse.jdt.core.javanature</nature>
+
+<buildCommand>
+            <name>org.eclipse.jdt.core.javabuilder</name>
+            <arguments>
+            </arguments>
+        </buildCommand>
+
+full file:
+
+<?xml version="1.0" encoding="UTF-8"?>
+<projectDescription>
+    <name>yourprojectname</name>
+    <comment></comment>
+    <projects>
+    </projects>
+    <buildSpec>
+        <!-- add this build command -->
+        <buildCommand>
+            <name>org.eclipse.jdt.core.javabuilder</name>
+            <arguments>
+            </arguments>
+        </buildCommand>
+        <!-- this would've already been there -->
+        <buildCommand>
+            <name>org.eclipse.m2e.core.maven2Builder</name>
+            <arguments>
+            </arguments>
+        </buildCommand>
+    </buildSpec>
+    <natures>
+        <!-- add this nature -->
+        <nature>org.eclipse.jdt.core.javanature</nature>
+        <!-- this would've already been there -->
+        <nature>org.eclipse.m2e.core.maven2Nature</nature>
+    </natures>
+</projectDescription>
