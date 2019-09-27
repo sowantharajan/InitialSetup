@@ -1,0 +1,7 @@
+Java version check cmd: 
+java -version or javac -version
+
+Contrl Panel --> Programs --> Java 
+verify JRE path in above place
+
+Environment varaibles need JRE path in system. But atleast Eclipse required JDK path
