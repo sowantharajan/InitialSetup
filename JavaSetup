@@ -4,4 +4,6 @@ java -version or javac -version
 Contrl Panel --> Programs --> Java 
 verify JRE path in above place
 
-Environment varaibles need JDK path in system. Eclipse required JRE path in JRE installed options
+Environment varaibles need JDK path in system. Eclipse required JRE path in Installed JRE's options(Window --> Preferences --> Installed JRE)
+
+Control Panel Java(JRE) path is equivalent to Eclipse properties Installed JRE's Path(Window --> Preferences --> Installed JRE)
