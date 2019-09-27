@@ -1,4 +1,6 @@
-Update Java nature if missed in any project through below in .properties file:
+Navigator(Add Java & Maven nature in .project file): Window --> Show view --> Navigator 
+
+Update Java nature if missed in any project through below in .project file:
 <nature>org.eclipse.jdt.core.javanature</nature>
 
 <buildCommand>
