@@ -1,7 +1,10 @@
-System env variables - JRD conf
+System env variables - JRE conf
 Eclipse conf - JDK conf
 In Eclipse, Particular project Properties --> JavaCompiler(click) --> JDK Compliance --> select any installed java Version (1.8)
-Settings.xml
+
+Settings.xml (Client own MVN Repositories connection issues
+
 cleanup activities : .m2 folders
 mvn clean, build & install
-Navigator(for .project file): Window --> Show view --> Navigator 
+
+Navigator(Add Java & Maven nature in .project file): Window --> Show view --> Navigator 
