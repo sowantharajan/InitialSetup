@@ -1,5 +1,5 @@
-System env variables - JRE conf
-Eclipse conf - JDK conf (Window --> Preferences --> Installed JRE) my working value--> C:\java8
+System env variables - JDK conf
+Eclipse conf - JDK/JRE conf (Window --> Preferences --> Installed JRE) my working value(This is JDK path inside have JRE)--> C:\java8
 In Eclipse, Particular project Properties --> JavaCompiler(click) --> JDK Compliance --> select any installed java Version (1.8)
 
 Settings.xml (Client own MVN Repositories connection issues
