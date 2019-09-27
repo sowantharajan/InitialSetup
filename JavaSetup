@@ -6,4 +6,4 @@ verify JRE path in above place
 
 Environment varaibles need JDK path in system. Eclipse required JRE path in Installed JRE's options(Window --> Preferences --> Installed JRE)
 
-Control Panel Java(JRE) path is equivalent to Eclipse properties Installed JRE's Path(Window --> Preferences --> Installed JRE)
+Control Panel Java(JRE) path might be equivalent to Eclipse properties Installed JRE's Path(Window --> Preferences --> Installed JRE). But direct Java8 JDK path is fine for eclipse JRE.
