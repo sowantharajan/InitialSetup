@@ -1,0 +1,7 @@
+System env variables - JRD conf
+Eclipse conf - JDK conf
+In Eclipse, Particular project Properties --> JavaCompiler(click) --> JDK Compliance --> select any installed java Version (1.8)
+Settings.xml
+cleanup activities : .m2 folders
+mvn clean, build & install
+Navigator(for .project file): Window --> Show view --> Navigator 
