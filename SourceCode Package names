@@ -1,0 +1,24 @@
+Regular usage :
+
+client / common / config 
+main / model
+service / processor
+utils
+
+
+
+All:
+
+boot
+client / common / config / consume
+exception / errors / enrich /exporter
+helper
+listener
+main / model
+importer / input 
+ouput
+publish / processor / producer
+response / request / router / resources
+sample / service / scripts / source
+templates / target
+utils
