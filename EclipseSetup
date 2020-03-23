@@ -8,3 +8,6 @@ cleanup activities : .m2 folders
 mvn clean, build & install
 
 Navigator(Add Java & Maven nature in .project file): Window --> Show view --> Navigator 
+
+Add java : Right click from project --> properties --> project factes --> enable java
+Add maven : Right click from project --> enable maven nature (update project)
