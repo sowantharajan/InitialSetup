@@ -11,3 +11,5 @@ Navigator(Add Java & Maven nature in .project file): Window --> Show view --> Na
 
 Add java : Right click from project --> properties --> project factes --> enable java
 Add maven : Right click from project --> enable maven nature (update project)
+
+Maven dependencies in project(other than java lib) to avoid more errors in code(import missing): project path --> add maven stuff(org.eclipse.m2e.MAVEN2_CLASSPATH_CONTAINER) in ".classpath" - Google it
