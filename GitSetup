@@ -1,0 +1,5 @@
+1. Install Git in local
+2. Go to any Directory and right click then GIT GUI / GIT Bash
+3. Clone the projects from above directory with includes new path(/projectName)
+4. Add your SSH Public key in Github account(If it is github.com)
+5. If you do the same way from IDE then you need to setup all the SSH setup in IDE itself. Better directly do it like above.
