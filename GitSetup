@@ -3,3 +3,6 @@
 3. Clone the projects from above directory with includes new path(/projectName)
 4. Add your SSH Public key in Github account(If it is github.com)
 5. If you do the same way from IDE then you need to setup all the SSH setup in IDE itself. Better directly do it like above.
+
+
+Use SSH clone link from github if SSH key generated already(id_rsa) - Link ref: https://docs.github.com/en/free-pro-team@latest/github/authenticating-to-github/generating-a-new-ssh-key-and-adding-it-to-the-ssh-agent
