@@ -1,0 +1,4 @@
+SSH tunnel: autossh -f -N -M 0 -o "ServerAliveInterval 30" -o "ServerAliveCountMax 3" -L 8081:localhost:8081 jenkins-datapipeline
+(or)   ssh -f -N -L 8081:localhost:8081 jenkins-datapipeline
+
+Execute proper path bashrc:              . ~/Documents/.bashrc 
