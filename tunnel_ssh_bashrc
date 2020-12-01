@@ -1,0 +1,20 @@
+function tunnel() {
+   echo "Please choose a tunnel:"
+   echo -e "\t1) jenkins-datapipeline"
+   read -s -r line
+   case $line in
+       1)
+           HOST="8080:localhost:8080 jenkins-datapipeline"
+           echo "Creating tunnel: jenkins-datapipeline (port 8080)"
+           ;;
+       
+       *)
+           HOST=""
+   esac
+  if [[ $HOST ]]; then
+       CMD="ssh -f -N -L $HOST"
+       pkill -x -f "$CMD"
+       eval "$CMD"
+       google-chrome "http://localhost:${HOST%%:*}"
+   fi
+}
