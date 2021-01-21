@@ -6,3 +6,7 @@
 
 
 Use SSH clone link from github if SSH key generated already(id_rsa) - Link ref: https://docs.github.com/en/free-pro-team@latest/github/authenticating-to-github/generating-a-new-ssh-key-and-adding-it-to-the-ssh-agent
+
+e.g 
+git clone git@example.com:project-name.git
+git checkout -b newFeature_BranchName
